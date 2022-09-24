@@ -27,10 +27,10 @@ This is a guide on how to perform a reverse shell on Windows.
  > ⚠ ATTENTION ⚠
  
  DIFFERENT NETWORK
-    - ngrok
+   - ngrok
 
 SAME NETWOTK - DIFFERENT DEVICES
-    - IPv4 + 9999
+   - IPv4 + 9999
 
 SAME DEVICE
-    - 127.0.0.1 + 9999
+   - 127.0.0.1 + 9999
